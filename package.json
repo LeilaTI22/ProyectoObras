@@ -4,7 +4,8 @@
   "description": "Proyecto realizado con EJS, Node.JS, Express y MySQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // remove test line if you wish
+    "start": "node app.js" // add this line
   },
   "keywords": [],
   "author": "Janet Leilani Carapia Hernandez",
