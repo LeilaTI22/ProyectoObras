@@ -1,0 +1,20 @@
+{
+  "name": "obras",
+  "version": "1.0.0",
+  "description": "Proyecto realizado con EJS, Node.JS, Express y MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Janet Leilani Carapia Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "heroku": "^8.1.9",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "nodemon": "^2.0.7"
+  }
+}
