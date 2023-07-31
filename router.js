@@ -4,7 +4,7 @@ const router = express.Router();
 const conexion = require('./database/db');
 
 router.get('/', (req, res)=>{     
-    res.render('index')
+    res.render('views/index')
 })
 
 router.get('/listarObras', (req, res)=>{     
