@@ -1,0 +1,31 @@
+<%- include('../secciones/header.ejs'); %>
+
+  <div class="container mt-4">     
+    <div class="card border-secondary">  
+        <div class="card-header">Nueva Obra</div>
+        <div class="card-body">
+            <form action="/save" method="POST">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre de Obra</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" tabindex="1">
+                </div>  
+
+                <div class="mb-3">
+                  <label for="artista" class="form-label">Artista</label>
+                  <input type="text" class="form-control" id="artista" name="artista" tabindex="1">
+                </div>
+
+                <div class="mb-3">
+                  <label for="tipo" class="form-label">Tipo de Obra</label>
+                  <input type="text" class="form-control" id="tipo" name="tipo" tabindex="1">
+                </div> 
+                
+
+                <button type="submit" class="btn btn-primary" tabindex="5">Guardar</button>
+                <a href="/" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>        
+  </div>
+
+<%- include('../secciones/footer.ejs'); %>

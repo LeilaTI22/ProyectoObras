@@ -1,0 +1,37 @@
+
+<%- include('../secciones/header.ejs'); %>
+
+    <div  eblclass="container">      
+        <table class="table table-bordered table-striped text-center mt-4">
+        <thead>
+            <tr class="bg-primary text-white">
+            <th scope="col">ID</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">ARTISTA</th>            
+            <th scope="col">TIPO</th>            
+            <th scope="col">ACCIÓN</th>            
+            </tr>
+        </thead>
+
+        <tbody>
+            <% results.forEach((obras)=>{ %>
+            <tr>  
+                <td><%= obras.id %></td>  
+                <td><%= obras.nombre %></td>
+                <td><%= obras.artista %></td>
+                <td><%= obras.tipo %></td>
+                <td>
+                    <a href="/edit/<%= obras.id %>" class="btn btn-outline-info"><i class='bx bxs-edit'></i></a>
+                    <a href="/delete/<%= obras.id %>" class="btn btn-outline-danger"><i class='bx bxs-trash-alt'></i></a>                   
+                </td>
+            </tr>                                   
+            <% }) %>
+        </tbody>
+
+        </table>
+    </div>
+
+<%- include('../secciones/footer.ejs'); %>
+
+
+
