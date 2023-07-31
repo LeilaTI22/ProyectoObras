@@ -3,7 +3,7 @@ const router = express.Router();
 
 const conexion = require('./database/db');
 
-router.get('/', (req, res)=>{     
+router.get('/index', (req, res)=>{     
     res.render('index')
 })
 
