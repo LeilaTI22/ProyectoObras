@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 const conexion = mysql.createConnection({
-    host     : 'postgres://leilati:RRt4uH31zpBAkd745erTJo7ykQ1NeuOS@dpg-cj5bmiee546c739fl9tg-a.oregon-postgres.render.com/obras',
-    user     : 'leilati',
-    password : 'RRt4uH31zpBAkd745erTJo7ykQ1NeuOS',
-    database : 'obras',
-    port: 5432
+    host     : 'containers-us-west-141.railway.app',
+    user     : 'root',
+    password : 'pBmOKxjAb8NXDrGAO6WA',
+    database : 'railway',
+    port: 6090
 });
 conexion.connect((error)=>{
     if (error) {
