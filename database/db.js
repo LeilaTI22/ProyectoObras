@@ -1,9 +1,9 @@
 const mysql = require('mysql2');
 const conexion = mysql.createConnection({
-    host     : 'us-cdbr-east-06.cleardb.net',
-    user     : 'b7717285b53e31',
-    password : '9f35e633',
-    database : 'heroku_e186674c0d599bd'  
+    host     : 'dpg-cj5bmiee546c739fl9tg-a',
+    user     : 'leilati',
+    password : 'RRt4uH31zpBAkd745erTJo7ykQ1NeuOS',
+    database : 'obras'  
 });
 conexion.connect((error)=>{
     if (error) {
