@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 const conexion = mysql.createConnection({
-    host     : 'postgres://leilati:RRt4uH31zpBAkd745erTJo7ykQ1NeuOS@dpg-cj5bmiee546c739fl9tg-a/obras',
+    host     : 'postgres://leilati:RRt4uH31zpBAkd745erTJo7ykQ1NeuOS@dpg-cj5bmiee546c739fl9tg-a.oregon-postgres.render.com/obras',
     user     : 'leilati',
     password : 'RRt4uH31zpBAkd745erTJo7ykQ1NeuOS',
     database : 'obras',
